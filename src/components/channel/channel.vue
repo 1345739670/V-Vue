@@ -1,101 +1,93 @@
 <template>
-  <div class="root">
-    <div class="wrapper">
-      <!-- 原频道 -->
-      <div class="container">
-        <div class="container-item">
-          <div class="container-title">
-            <h2>
-              <a href="#">
-                <div class="container-img">
-                  <img src="@/assets/img/douban.png" alt="最新视频">
-                </div>
-                <span>最新视频</span>
-                <div class="from">来自<a>豆瓣电影</a></div>
-              </a>
-            </h2>
-          </div>
-          <div class="container-contents">
-            <div class="container-contentsItem">
-              <a href="#" class="contents-thumb">
-                <img src="@/assets/img/thumb/2527544359.jpg" alt="">
-              </a>
-              <div class="container-details">
-                <div class="wrapper-details">
-                  <h3 class="title-details">
-                    <a href="#">摩天营救</a>
-                  </h3>
-                </div>
-              </div>
+  <div class="container">
+    <div class="container-item">
+      <div class="container-title">
+        <h2>
+          <a href="#">
+            <div class="container-img">
+              <img src="@/assets/img/douban.png" alt="最新视频">
             </div>
-            <!-- 频道内复制样品 -->
-            <div class="container-contentsItem">
-              <a href="#" class="contents-thumb">
-                <img src="@/assets/img/thumb/2527544359.jpg" alt="">
-              </a>
-              <div class="container-details">
-                <div class="wrapper-details">
-                  <h3 class="title-details">
-                    <a href="#">摩天营救</a>
-                  </h3>
-                </div>
-              </div>
+            <span>最新视频</span>
+            <div class="from">来自<a>豆瓣电影</a></div>
+          </a>
+        </h2>
+      </div>
+      <div class="container-contents">
+        <div class="container-contentsItem">
+          <a href="#" class="contents-thumb">
+            <img src="@/assets/img/thumb/2527544359.jpg" alt="">
+          </a>
+          <div class="container-details">
+            <div class="wrapper-details">
+              <h3 class="title-details">
+                <a href="#">摩天营救</a>
+              </h3>
             </div>
-            <div class="container-contentsItem">
-              <a href="#" class="contents-thumb">
-                <img src="@/assets/img/thumb/2527544359.jpg" alt="">
-              </a>
-              <div class="container-details">
-                <div class="wrapper-details">
-                  <h3 class="title-details">
-                    <a href="#">摩天营救</a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="container-contentsItem">
-              <a href="#" class="contents-thumb">
-                <img src="@/assets/img/thumb/2527544359.jpg" alt="">
-              </a>
-              <div class="container-details">
-                <div class="wrapper-details">
-                  <h3 class="title-details">
-                    <a href="#">摩天营救</a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="container-contentsItem">
-              <a href="#" class="contents-thumb">
-                <img src="@/assets/img/thumb/2527544359.jpg" alt="">
-              </a>
-              <div class="container-details">
-                <div class="wrapper-details">
-                  <h3 class="title-details">
-                    <a href="#">摩天营救</a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="container-contentsItem">
-              <a href="#" class="contents-thumb">
-                <img src="@/assets/img/thumb/2527544359.jpg" alt="">
-              </a>
-              <div class="container-details">
-                <div class="wrapper-details">
-                  <h3 class="title-details">
-                    <a href="#">摩天营救</a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <!-- 频道内复制样品 -->
           </div>
         </div>
+        <!-- 频道内复制样品 -->
+        <div class="container-contentsItem">
+          <a href="#" class="contents-thumb">
+            <img src="@/assets/img/thumb/2527544359.jpg" alt="">
+          </a>
+          <div class="container-details">
+            <div class="wrapper-details">
+              <h3 class="title-details">
+                <a href="#">摩天营救</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="container-contentsItem">
+          <a href="#" class="contents-thumb">
+            <img src="@/assets/img/thumb/2527544359.jpg" alt="">
+          </a>
+          <div class="container-details">
+            <div class="wrapper-details">
+              <h3 class="title-details">
+                <a href="#">摩天营救</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="container-contentsItem">
+          <a href="#" class="contents-thumb">
+            <img src="@/assets/img/thumb/2527544359.jpg" alt="">
+          </a>
+          <div class="container-details">
+            <div class="wrapper-details">
+              <h3 class="title-details">
+                <a href="#">摩天营救</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="container-contentsItem">
+          <a href="#" class="contents-thumb">
+            <img src="@/assets/img/thumb/2527544359.jpg" alt="">
+          </a>
+          <div class="container-details">
+            <div class="wrapper-details">
+              <h3 class="title-details">
+                <a href="#">摩天营救</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="container-contentsItem">
+          <a href="#" class="contents-thumb">
+            <img src="@/assets/img/thumb/2527544359.jpg" alt="">
+          </a>
+          <div class="container-details">
+            <div class="wrapper-details">
+              <h3 class="title-details">
+                <a href="#">摩天营救</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- 频道内复制样品 -->
       </div>
-      <!-- 原频道 -->
-      <!-- <div id="recommend" class="container">
-      </div> -->
     </div>
   </div>
 </template>
@@ -113,18 +105,6 @@ export default {
 </script>
 
 <style scoped>
-.root {
-  margin: 56px 0 0 240px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.wrapper {
-  overflow:auto;
-  display: flex;
-  flex-direction: column;
-  width: 1284px;
-}
 .container {
   margin-top: 24px;
   border-bottom: 1px solid hsl(0, 0%, 93.3%);
