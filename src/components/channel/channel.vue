@@ -20,7 +20,7 @@
           <div class="container-details">
             <div class="wrapper-details">
               <h3 class="title-details">
-                <a href="#">摩天营救</a>
+                <a href="/watch">摩天营救</a>
               </h3>
             </div>
           </div>
