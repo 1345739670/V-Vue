@@ -13,9 +13,6 @@
   "dependencies": {
     "babel-loader": "^7.1.5",
     "dplayer": "^1.24.0",
-    "puppeteer": "^1.6.1",
-    "request": "^2.87.0",
-    "request-promise-native": "^1.0.5",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

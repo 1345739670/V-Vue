@@ -1,10 +1,14 @@
 <template>
   <div class="m-header">
     <div class="header-left">
-      <div class="icon icon-mean"></div>
-      <div class="icon-logo">
-        <a href="/" title="首页"></a>
-      </div>
+      <svg class="icon icon-mean header-icon cursor-pointer" aria-hidden="true">
+        <use xlink:href="#icon-mean"></use>
+      </svg>
+      <router-link tag="a" to="/">
+        <svg class="icon icon-logo" aria-hidden="true">
+          <use xlink:href="#icon-logo"></use>
+        </svg>
+      </router-link>
     </div>
     <div class="header-middle">
       <form class="searchform">
@@ -15,19 +19,27 @@
       </form>
     </div>
     <div class="header-right">
-      <router-link tag="div" class="right-buttom" to="/user">
-        <i class="icon icon-video"></i>
+      <router-link tag="a" class="right-buttom" to="/video">
+        <svg class="icon header-icon" aria-hidden="true">
+          <use xlink:href="#icon-video"></use>
+        </svg>
       </router-link>
-      <router-link tag="div" class="right-buttom" to="/user">
-        <i class="icon icon-application"></i>
+      <router-link tag="a" class="right-buttom" to="/application">
+        <svg class="icon header-icon" aria-hidden="true">
+          <use xlink:href="#icon-application"></use>
+        </svg>
       </router-link>
-      <router-link tag="div" class="right-buttom" to="/user">
-        <i class="icon icon-message"></i>
+      <router-link tag="a" class="right-buttom" to="/message">
+        <svg class="icon header-icon" aria-hidden="true">
+          <use xlink:href="#icon-message"></use>
+        </svg>
       </router-link>
-      <router-link tag="div" class="right-buttom" to="/user">
-        <i class="icon icon-notice"></i>
+      <router-link tag="a" class="right-buttom" to="/notice">
+        <svg class="icon header-icon" aria-hidden="true">
+          <use xlink:href="#icon-notice"></use>
+        </svg>
       </router-link>
-      <router-link tag="div" class="user" to="/user">
+      <router-link tag="a" class="user" to="/user">
         <i class="icon-avatar"></i>
       </router-link>
     </div>
@@ -44,7 +56,6 @@ export default {
 </script>
 
 <style scoped>
-/* @import "@/assets/css/base.css"; */
 .m-header {
   position: fixed;
   top: 0;
@@ -99,7 +110,7 @@ export default {
   font-family: 'Roboto','Noto',sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 26px;
   margin-left: 4px;
   max-width: 100%;
   outline: none;
@@ -117,15 +128,18 @@ export default {
 .search-buttom:hover{
   background-color: #e9e9e9;
 }
-
+.header-icon {
+  font-size: 24px;
+  color: #a0a0a0;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
 .icon-logo {
-  background: url(../../assets/img/logo.png) no-repeat center;
-  background-size: 32px;
-  width: 32px;
-  height: 32px;
+  font-size: 32px;
+  color: #ff0000;
 }
 .icon-mean {
-  background: url(../../assets/img/mean.png) no-repeat center;
   padding: 8px;
   margin-right: 16px;
 }
@@ -136,27 +150,9 @@ export default {
   margin-right: 16px;
   width: 252px;
   height: 40px;
-  /* background: rgb(223, 9, 9); */
 }
 .header-right .icon {
   display: block;
-}
-.icon-video {
-  background: url(../../assets/img/video.png) no-repeat center;
-}
-.icon-application {
-  background: url(../../assets/img/application.png) no-repeat center;
-}
-.icon-message {
-  background: url(../../assets/img/message.png) no-repeat center;
-}
-.icon-notice {
-  background: url(../../assets/img/notice.png) no-repeat center;
-}
-.icon {
-  width: 24px;
-  height: 24px;
-  background-size: 24px;
 }
 .user {
   width: 32px;

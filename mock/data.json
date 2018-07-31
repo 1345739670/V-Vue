@@ -1,0 +1,22 @@
+{
+  "siderbarList": [
+    {
+      "link": "https://www.bilibili.com",
+      "icon": "http://pcnt6gilc.bkt.clouddn.com/GitHubTraining.jpg",
+      "content": "GitHub Training & Guides",
+      "count": "1"
+    },
+    {
+      "link": "https://www.bilibili.com",
+      "icon": "http://pcnt6gilc.bkt.clouddn.com/%E6%B3%9B%E5%BC%8FFunShiki.jpg",
+      "content": "泛式FunShiki",
+      "count": "1"
+    },
+    {
+      "link": "https://www.bilibili.com",
+      "icon": "http://pcnt6gilc.bkt.clouddn.com/GitHub.jpg",
+      "content": "GitHub",
+      "count": "2"
+    }
+  ]
+}

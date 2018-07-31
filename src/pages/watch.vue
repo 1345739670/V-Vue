@@ -2,7 +2,6 @@
   <div class="watch">
     <div class="watch-wrapper">
       <div class="dplaycontainer" @click="playVidio" ref="dplayer">
-        <!-- <video id="videoElement" width="854px" height="480px"></video> -->
       </div>
     </div>
   </div>

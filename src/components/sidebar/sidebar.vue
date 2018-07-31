@@ -28,13 +28,12 @@
       </ul>
     </div>
     <div class="subscription-content">
-      <ul>
+      <!-- <ul>
         <h3 class="section-title">订阅内容</h3>
         <li>
           <a href="/">
             <div class="icon-subscription">
               <img src="@/assets/img/GitHubTraining.jpg" alt="GitHub Training & Guides">
-              <!-- <span>GitHub Training & Guides</span> -->
             </div>
             <span class="subscription-title">GitHub Training & Guides</span>
             <span class="update-quantity">1</span>
@@ -66,7 +65,8 @@
             <span class="subscription-title">浏览频道</span>
           </a>
         </li>
-      </ul>
+      </ul> -->
+      <sidebar-list title="订阅内容" :siderbarList="siderbar"></sidebar-list>
     </div>
     <div class="subscription-content">
       <ul>
@@ -99,7 +99,7 @@
             <div class="icon-subscription">
               <img src="@/assets/img/feedback.png" alt="发送反馈">
             </div>
-            <span class="subscription-title">浏览频道</span>
+            <span class="subscription-title">发送反馈</span>
           </a>
         </li>
       </ul>
@@ -126,10 +126,29 @@
 </template>
 
 <script>
+import axios from 'axios'
+import {ERR_OK} from 'assets/js/config'
+import SidebarList from 'base/sidebar-list/sidebar-list'
 export default {
+  created () {
+    axios.get('/api/siderbar')
+      .then(res => {
+        res = res.data
+        if (res.errno === ERR_OK) {
+          this.siderbar = res.data
+        }
+      })
+      .catch(err => {
+        console.log(err)
+      })
+  },
   data () {
     return {
+      siderbar: []
     }
+  },
+  components: {
+    SidebarList
   }
 }
 </script>

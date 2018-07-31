@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import './assets/js/iconfont.js'
 import MHeader from './components/m-header/m-header'
 import Sidebar from './components/sidebar/sidebar'
 export default {
